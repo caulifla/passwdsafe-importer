@@ -14,7 +14,7 @@ namespace exporter {
             var newArray = new string[] {entries[0], entries[2], entries[3], entries[4] };
             newFile.Add (string.Join ("\t", newArray));
          }
-         File.WriteAllLines ("compatible.txt", newFile.ToArray ());
+         File.WriteAllLines (args[1], newFile.ToArray ());
       }
    }
 }
