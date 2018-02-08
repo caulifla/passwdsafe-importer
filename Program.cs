@@ -2,7 +2,7 @@
 using System.IO;
 using System.Linq;
 
-namespace exporter {
+namespace ps2psw {
    class Program {
       static void Main (string[] args) {
          var file = File.ReadAllLines (args[0]);
